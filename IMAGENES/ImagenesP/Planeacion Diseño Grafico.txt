@@ -1,0 +1,82 @@
+//Planeacion Proyecto Diseño Grafico "Sitio de Ventas Electronicas".
+
+Tema de la pagina web = "ICC-Bay".
+
+Colores Representativos = Azul y Amarrillo, Colores Universidad.
+
+Articulos que se venderan = Computadoras, Licencias de Software, Accesorios Generales PC, Merchandising.
+Minimo de articulos = 20
+
+Anuncios = Tutorias.
+
+Tareas que hacer.
+______________________________________________________________
+
+Definir Nombre y tipo de empresa = listo
+Definir Vision y Mision = 
+Definir y crear el logo = Listo
+
+______________________________________________________________
+Para Juves 02/04/2020
+--------------------------------------------------------------
+Presentar el main del sitio en Programacion Y en Diseño via
+Photoshop al ingeniero.
+--------------------------------------------------------------
+
+Creacion de boceto de sitio en Photoshop.
+
+Background de las paginas = Azul ICC 
+
+Paginas que llevara el sitio 
+----Principales---
+1. Inicio.
+2. Computadoras.
+3. Licencias de Software.
+4. Accesorios.
+5. Merchandising.
+6. Quienes somos.
+---Principales---
+
+---Secundarios---
+1. Pagina de visualizacion del producto.
+2. Pago de producto //Formulario donde se pida nombre, correo, direccion, datos financieros...
+
+
+
+
+Division de trabajo.
+
+Photoshop --> Walter, Ernesto, Hacknel.
+--------------------------------------------------------------
+	*Bocetos \ Walter, Hacknel.
+______________________________________________________________
+	/*Inicio \ Ernesto
+	  Paginas de Productos \ Hacknel
+          Quienes somos \ Walter
+	  Pagina de visualizacion del producto \ Ernesto
+	  Pago de producto \ Walter y Hacknel
+	*/
+______________________________________________________________
+	*Logo \	Ernesto
+______________________________________________________________
+	*Miniaturas e imagenes \ Hacknel, Samuel, Yessy.
+______________________________________________________________
+	*Publicidad \ Ernesto, Walter, Hacknel.
+______________________________________________________________
+	*Calendarios, carnes y otros añadidos \ Walter y Oscar
+______________________________________________________________
+
+--------------------------------------------------------------
+Programacion HTML y CSS --> Oscar, Yessy, Samuel
+
+--------------------------------------------------------------
+	*Pagina Inicio \ Oscar.
+______________________________________________________________
+	*Computadoras \ Oscar.
+______________________________________________________________
+	*Paginas de productos \ Oscar, Yessy, Samuel
+______________________________________________________________
+	*Descripcions de Productos \ Samuel.
+--------------------------------------------------------------
+
+--------------------------------------------------------------
