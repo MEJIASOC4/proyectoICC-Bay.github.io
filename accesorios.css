@@ -1,0 +1,2233 @@
+/* Hoja de Estilo para Pagina Accesorios */
+
+body{
+    background-image: url("IMAGENES/FONDONUEVOOO_Mesa\ de\ trabajo\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1720px 2700px;
+    
+}
+
+#header{    
+    background-color: #c4cce3;
+
+    background-image: url("IMAGENES/ImagenesP/Capa\ 1.png");
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y: 5px;
+    z-index: 1;
+
+    width: 1500px;  /* Dimensiones */
+    height: 100px;
+    
+    display: inline-block;
+    position: fixed;
+    top: 15px;
+    left: 100px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*   */
+
+#input-search{
+
+    display: flex;
+    position: fixed;
+    top: 45px;
+    left: 1200px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: white;
+    border: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+
+.content-search{
+    width:300px;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: none;
+    border-radius: 15px;
+}
+
+.content-table{
+
+    display: flex;
+    position: fixed;
+    top: 85px;
+    left: 1200px;
+    width: 300px;
+    max-height: 200px;
+    height: auto;
+    margin-left: 0px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background-color: #3adfce;
+
+    
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+    width: 300px;
+    display: block;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+
+/* */
+
+a.inicio{    
+    background-color: gray;
+
+    width: 100px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 390px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    
+    text-align: center; 
+  
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.computadoras{    
+    background-color: gray;
+
+    width: 250px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 500px;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.accs{    
+    background-color: gray;
+
+    width: 180px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 760px;
+
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a.merchan{    
+    background-color: gray;
+    text-decoration: none;
+    width: 220px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 953px;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+
+ 
+}
+
+a.inicio:hover{    
+    background-color: yellow;
+
+    width: 100px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 390px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    
+    text-align: center; 
+  
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.computadoras:hover{    
+    background-color: yellow;
+
+    width: 250px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 500px;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.accs:hover{    
+    background-color: yellow;
+
+    width: 180px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 760px;
+
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a.merchan:hover{    
+    background-color: yellow;
+    text-decoration: none;
+    width: 220px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 953px;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+
+ 
+}
+
+.venta1{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+}
+
+.venta1 img {
+    width: 300px;
+    height: 190px;
+    display: block;
+    top: -4px; /* ajustar los valores para mover la imagen */
+    left: 30px;
+    position: relative;     
+}
+
+.venta1 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta1 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta1 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta2{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta2 img {
+    width: 310px;
+    height: 190px;
+    display: block;
+    top: -4px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta2 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta2 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta2 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta3{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+}
+
+.venta3 img {
+    width: 210px;
+    height: 190px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 76px;
+    position: relative;     
+}
+
+.venta3 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta3 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta3 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta4{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 550px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta4 img {
+    width: 250px;
+    height: 190px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta4 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta4 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta4 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta5{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 950px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+}
+
+.venta5 img {
+    width: 150px;
+    height: 170px;
+    display: block;
+    top: 6px; /* ajustar los valores para mover la imagen */
+    left: 70px;
+    position: relative;     
+}
+
+.venta5 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -5px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta5 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta5 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px;  /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta6{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 950px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta6 img {
+    width: 350px;
+    height: 180px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 10px;
+    position: relative;
+}
+
+.venta6 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta6 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -90px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta6 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta7{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+}
+
+.venta7 img {
+    width: 250px;
+    height: 170px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 50px;
+    position: relative;     
+}
+
+.venta7 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta7 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta7 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta8{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta8 img {
+    width: 290px;
+    height: 180px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 35px;
+    position: relative;
+}
+
+.venta8 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta8 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -90px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta8 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta9{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 1750px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+}
+
+.venta9 img {
+    width: 350px;
+    height: 186px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 8px;
+    position: relative;     
+}
+
+.venta9 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta9 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -95px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta9 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -125px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta10{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 1750px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta10 img {
+    width: 270px;
+    height: 200px;
+    display: block;
+    top: -3px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta10 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -35px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta10 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta10 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -140px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta11{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2150px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta11 img {
+    width: 270px;
+    height: 210px;
+    display: block;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta11 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -30px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta11 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta11 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -140px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------*/
+.venta12{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2150px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta12 img {
+    width: 270px;
+    height: 180px;
+    display: block;
+    top: -1px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta12 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -4px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta12 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta12 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+
+.venta13{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2550px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta13 img {
+    width: 270px;
+    height: 200px;
+    display: block;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta13 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -25px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta13 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta13 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta14{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2550px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta14 img {
+    width: 260px;
+    height: 210px;
+    display: block;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta14 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -40px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta14 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta14 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -150px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta15{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2950px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta15 img {
+    width: 270px;
+    height: 200px;
+    display: block;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta15 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -30px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta15 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta15 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta16{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 2950px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta16 img {
+    width: 270px;
+    height: 200px;
+    display: block;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta16 h2{
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -25px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta16 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta16 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta17{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 3350px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta17 img {
+    width: 250px;
+    height: 170px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta17 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta17 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta17 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta18{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 3350px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta18 img {
+    width: 250px;
+    height: 210px;
+    display: block;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta18 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -40px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta18 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta18 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -150px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta19{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 3750px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta19 img {
+    width: 260px;
+    height: 190px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta19 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta19 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta19 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta20{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 3750px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta20 img {
+    width: 260px;
+    height: 190px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta20 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta20 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta20 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+.venta21{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4150px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta21 img {
+    width: 180px;
+    height: 170px;
+    display: block;
+    top: 4px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta21 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta21 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta21 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+.venta22{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4150px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta22 img {
+    width: 240px;
+    height: 180px;
+    display: block;
+    top: 4px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta22 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta22 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -90px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta22 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta23{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4550px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta23 img {
+    width: 260px;
+    height: 170px;
+    display: block;
+    top: 4px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta23 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta23 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta23 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -110px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta24{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4550px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta24 img {
+    width: 230px;
+    height: 190px;
+    display: block;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta24 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta24 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta24 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -120px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta25{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4950px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta25 img {
+    width: 250px;
+    height: 200px;
+    display: block;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta25 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta25 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta25 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -130px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta26{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 4950px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENESImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta26 img {
+    width: 250px;
+    height: 200px;
+    display: block;
+    top: -10px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta26 h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta26 h3 {
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -55px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta26 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -70px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta27{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 5350px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta27 img {
+    width: 240px;
+    height: 200px;
+    display: block;
+    top: -7px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta27 h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta27 h3 {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -73px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta27 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -90px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta28{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 5350px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta28 img {
+    width: 240px;
+    height: 220px;
+    display: block;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta28 h2{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -20px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta28 h3 {
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -60px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta28 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -55px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------*/
+.venta29{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 5750px;
+    left: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta29 img {
+    width: 240px;
+    height: 210px;
+    display: block;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta29 h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -30px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta29 h3 {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -89px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta29 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+/*------------------------------------------------------------------------------------*/
+.venta30{
+    width: 400px;
+	height: 322px;
+    padding-left: 40px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 5750px;
+    right: 190px;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow:8px 11px 25px rgba(0,0,0,7);
+    background-image: url("IMAGENES/ImagenesProductos/barra.PNG");
+    background-size:350px 10px ;
+    background-position-y: 190px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+
+
+}
+
+.venta30 img {
+    width: 240px;
+    height: 170px;
+    display: block;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    left: 40px;
+    position: relative;
+}
+
+.venta30 h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: 4px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;    
+}
+
+.venta30 h3 {
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -80px; /* ajustar los valores para mover la imagen */
+    left: 235px;
+    position: relative;   
+}
+
+.venta30 p{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-family: 'Bebas Neue', cursive;
+    top: -107px; /* ajustar los valores para mover la imagen */
+    left: 12px;
+    position: relative;
+}
+
+
+
+.espacio1{
+    width: 400px;
+	height: 322px;
+    display: flex;
+    position: absolute;
+    top: 5800px;
+    right: 190px;
+ 
+}
+
+.espacio2{
+    width: 400px;
+	height: 322px;
+    display: flex;
+    position: absolute;
+    top: 5800px;
+    right: 190px;
+ 
+
+}
+
+.FINAL{
+    width: 1600px;
+    height: 100px;
+    background-color:  #c0c5ce ;
+    display: flex;
+    position: absolute;
+    top: 6100px;
+    left: 45px;
+    text-align: center ;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center; 
+  
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+}
+.FIN{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+
+}
+
+a.Fbutton{
+    width: 100px;
+    height: 100px;
+    background-size: 85px;
+    background-image: url("IMAGENES/redesSociales/LOGO\ F\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.Fbutton:hover{
+    width: 100px;
+    height: 100px;
+    background-size: 55px;
+    background-image: url("IMAGENES/1280px-Facebook_f_logo_(2019).svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+a.Wbutton{
+    background-image: url("IMAGENES/redesSociales/LOGO\ I\ 1.png");
+    width: 100px;
+    height: 100px;
+    background-size: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a.Wbutton:hover{
+    background-image: url("IMAGENES/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png");
+    width: 100px;
+    height: 100px;
+    background-size: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
