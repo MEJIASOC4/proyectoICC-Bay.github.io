@@ -1,0 +1,1176 @@
+/* Hoja de Estilo para Pagina Principal */
+
+body{
+    background-image: url("IMAGENES/FONDONUEVOOO_Mesa\ de\ trabajo\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1720px 2700px;
+    
+}
+
+#header{    
+    background-color: #c4cce3;
+
+    background-image: url("IMAGENES/ImagenesP/Capa\ 1.png");
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y: 5px;
+    z-index: 1;
+
+    width: 1500px;  /* Dimensiones */
+    height: 100px;
+    
+    display: inline-block;
+    position: fixed;
+    top: 15px;
+    left: 100px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*   */
+
+#input-search{
+
+    display: flex;
+    position: fixed;
+    top: 45px;
+    left: 1200px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: white;
+    border: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+
+.content-search{
+    width:300px;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: none;
+    border-radius: 15px;
+}
+
+.content-table{
+
+    display: flex;
+    position: fixed;
+    top: 85px;
+    left: 1200px;
+    width: 300px;
+    max-height: 200px;
+    height: auto;
+    margin-left: 0px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background-color: #3adfce;
+
+    
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+    width: 300px;
+    display: block;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+
+/* */
+
+a.inicio{    
+    background-color: gray;
+
+    width: 100px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 390px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    
+    text-align: center; 
+  
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.computadoras{    
+    background-color: gray;
+
+    width: 250px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 500px;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.accs{    
+    background-color: gray;
+
+    width: 180px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 760px;
+
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a.merchan{    
+    background-color: gray;
+    text-decoration: none;
+    width: 220px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 953px;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+
+ 
+}
+
+a.inicio:hover{    
+    background-color: yellow;
+
+    width: 100px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 390px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    
+    text-align: center; 
+  
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.computadoras:hover{    
+    background-color: yellow;
+
+    width: 250px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 500px;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+a.accs:hover{    
+    background-color: yellow;
+
+    width: 180px;  /* Dimensiones */
+    height: 78px;
+    
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 760px;
+
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a.merchan:hover{    
+    background-color: yellow;
+    text-decoration: none;
+    width: 220px;  /* Dimensiones */
+    height: 78px;
+
+    display: flex;
+    position: fixed;
+    top: 26px;
+    left: 953px;
+    border-radius: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+
+ 
+}
+
+#initial{
+        width: 1px;  /* Dimensiones */
+        height: 1px;
+        top: 10px;
+        left: 10px;
+}
+
+#Populares{
+
+        background-color: #858b97 ;  
+        width: 1200px;  /* Dimensiones */
+        height: 420px;
+        box-shadow: #3adfce;
+        box-shadow: 10px;
+        box-shadow: 5px 10px rgba(0,0,0,0.3);
+        display: flex;
+        position: absolute;
+        top: 150px;
+        left: 250px;
+    
+        border-radius: 10px;
+        /*font-size: 21px;*/
+        color: black;
+    
+        /* align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none; */
+}
+#ofertas{
+
+    background-color: #dadada;  
+    width: 520px;  /* Dimensiones */
+    height: 420px;
+    
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 00px;
+    padding-left: 30px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+    /* color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none; */
+}
+
+.ofertasTitle{
+    font-size: 65px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+}
+.ofertasSubtitle{
+    font-size: 33px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 35;
+
+}
+
+a.CompraYa{    
+    background-color: none;
+
+    width: 100px;  /* Dimensiones */
+    height: 40px;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center; 
+  
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a.CompraYa:hover{    
+    background-color: yellow;
+
+    width: 100px;  /* Dimensiones */
+    height: 40px;
+    
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    border: 2px solid;
+    border-color: gray;
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center; 
+  
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+#ProductosPopulares{
+    width: 640px;  /* Dimensiones */
+    height: 0px;
+
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 560px;
+    align-items: center;
+
+}
+
+.slider {
+
+	margin: auto;
+    overflow: hidden;
+    /* align-content: center; */
+}
+
+.slider ul {
+	display: flex;
+	padding: 5px;
+
+    align-content: center;
+	
+    animation: cambio 40s infinite alternate linear;
+}
+
+.slider li {
+ 
+    list-style: none;
+    align-content: center;
+}
+
+.slider img {
+
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+
+@keyframes cambio {
+
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        
+        50% {margin-left: -205%;}
+        70% {margin-left: -205%;}
+        
+        75% {margin-left: -312%;}
+        100% {margin-left: -312%;}
+    
+}
+
+
+
+#Productos{
+
+    background-color: #5579d7;  
+    width: 1500px;  
+    height: 300px;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+    top: 720px;
+    left: 100px;
+    padding: 0%;
+    border-radius: 10px;
+    z-index: 0;
+
+
+} 
+
+
+.sliderProductos {
+
+    /*margin: auto;*/
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    /* align-content: center; */
+    text-decoration: none;
+}
+
+.sliderProductos ul {
+	display: flex;
+	padding: 1px;
+
+    align-content: center;
+	
+	animation: change 20s infinite alternate linear;
+}
+
+.sliderProductos li {
+ 
+    list-style: none;
+    align-content: center;
+}
+
+.sliderProductos a {
+
+    margin-left: 85px;
+    margin-right: 0px;
+}
+
+@keyframes change {
+
+        0% {margin-left: 0;}
+        40% {margin-left: 0;}
+        
+        50% {margin-left: -100%;}
+        100% {margin-left: -100%;}
+        
+}
+
+#TPr1{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#textosPopulares{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.PopularTitle{    
+    background-color: #3adfce;
+
+    width: 300px;  /* Dimensiones */
+    height: 40px;
+    
+    display: flex;
+    position: absolute;
+    top: 505px;
+    left: 450px;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center; 
+    font-weight: 200;
+    justify-items: normal;
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+
+ 
+#Productos2{
+
+    background-color: #3adfce;  
+    width: 1500px;  
+    height: 300px;
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    top: 1130px;
+    left: 100px;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    font-size: 21px;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+/* CADA PRODUCTOSEGUIDO DE SU EFECTO */
+.textosPopulares1{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/BACKPACK\ A.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 262px;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares1:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/BACKPACK\ B\ 1.png");
+    background-size: 300px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+.textosPopulares2{
+
+    background-image: url("IMAGENES/ImagenesP/EDITS/ASUS\ VIVOBOOK\ 1.png");
+    background-size: 262px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares2:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/EDITS/ASUS\ VIVOBOOK\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+
+.textosPopulares3{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/BOTE\ A\ 1.png");
+    background-size: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares3:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/BOTE\ A\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+
+.textosPopulares4{
+    background-image: url("IMAGENES/ImagenesP/EDITS/CARGADOR\ DELL\ 1.png");
+    background-size: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares4:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/EDITS/CARGADOR\ DELL\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosPopulares5{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/GORRA\ A.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares5:hover{
+    width: 200px;  
+    height: 200px;
+
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/GORRA\ B.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosPopulares6{
+    background-image: url("IMAGENES/ImagenesP/EDITS/CARGADOR\ TOSHIBA\ 1.png");
+ 
+    background-size: 210px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares6:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/EDITS/CARGADOR\ TOSHIBA\ 2.png");
+    background-size: 210px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosPopulares7{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/LLAVERO\ B\ 1.png");
+    background-size: 210px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares7:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/LLAVERO\ B\ 2.png");
+    background-size: 210px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosPopulares8{
+    background-image: url("IMAGENES/ImagenesP/EDITS/GTS\ RX\ 1.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosPopulares8:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/EDITS/GTS\ RX\ 2.png");
+    background-size: 200px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+
+    
+
+
+.PopularTitle2{    
+    background-color: #5579d7;
+
+    width: 300px;  /* Dimensiones */
+    height: 40px;
+    
+    display: flex;
+    position: absolute;
+    top: -60px;
+    left: 600px;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center; 
+    font-weight: 200;
+    justify-items: normal;
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+/* FIN DE CADA PRODUCTO SEGUIDO DE SU EFECTO */
+.textosRecom1{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/LIBRO\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 262px;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+    
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+    
+}
+
+.textosRecom1:hover{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/LIBRO\ 1.png");
+    width: 200px;  
+    height: 200px;
+
+    background-size: 300px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+.textosRecom2{
+
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CAMISA\ A\ .png");
+    background-size: 262px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom2:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CAMISA\ B.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+.textosRecom3{
+    background-size: 240px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/MOUSE\ PAD\ A\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+    
+}
+
+.textosRecom3:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/MOUSE\ PAD\ A\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+.textosRecom4{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CABLE\ A\ 1.png");
+    background-size: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom4:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CABLE\ A\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+.textosRecom5{
+    background-image: url("IMAGENES/ImagenesP/EDITS/TECLADO\ A\ 1.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom5:hover{
+    width: 200px;  
+    height: 200px;
+
+    background-image: url("IMAGENES/ImagenesP/EDITS/TECLADO\ A\ 2.png");
+    background-size: 200px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosRecom6{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CASCOS\ B\ 1.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom6:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/CASCOS\ B\ 2.png");
+    background-size: 240px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+    
+}
+.textosRecom7{
+    background-image: url("IMAGENES/ImagenesP/EDITS/TECLADO\ C\ 1.png");
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom7:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/EDITS/TECLADO\ C\ 2.png");
+    background-size: 190px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+.textosRecom8{
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/TAZA\ A.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;  
+    height: 200px;
+    z-index: 1;
+ 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-decoration: none;
+
+}
+
+.textosRecom8:hover{
+    width: 200px;  
+    height: 200px;
+    background-image: url("IMAGENES/ImagenesP/IMAGENESV3/TAZA\ B\ .png");
+    background-size: 200px;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+
+
+
+
+/* TEXTO DE CADA PRODUCTO */
+a.tPopulares1{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+       color: black;
+       font-family: 'Bebas Neue', cursive;
+}
+a.tPopulares1:hover{
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+       color: yellow;
+}
+/* FINAL DE TEXTO PARA CADA PRODUCTO */
+
+/* CAJAS GRANDES QUE NO SE VEN */
+#CAJA1P{
+    width: 270px;
+    height: 270px;
+    background-color: none;
+    align-items: center;
+    object-position: center;
+    align-content: center;
+    margin-left: 83px;
+    border-radius: 5px;
+}
+#CAJA4P{
+    width: 270px;
+    height: 270px;
+    background-color: none;
+    align-items: center;
+    object-position: center;
+    align-content: center;
+    margin-left: 83px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+/* FIN DE LAS CAJAS GRANDES QUE NO SE VEN */
+
+.FINAL{
+    width: 1600px;
+    height: 100px;
+    background-color:  #c0c5ce ;
+    display: flex;
+    position: absolute;
+    top: 2200px;
+    left: 45px;
+    text-align: center ;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center; 
+  
+    font-size: 21px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+}
+.FIN{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+
+}
+
+a.Fbutton{
+    width: 100px;
+    height: 100px;
+    background-size: 85px;
+    background-image: url("IMAGENES/redesSociales/LOGO\ F\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.Fbutton:hover{
+    width: 100px;
+    height: 100px;
+    background-size: 55px;
+    background-image: url("IMAGENES/1280px-Facebook_f_logo_(2019).svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+a.Wbutton{
+    background-image: url("IMAGENES/redesSociales/LOGO\ I\ 1.png");
+    width: 100px;
+    height: 100px;
+    background-size: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a.Wbutton:hover{
+    background-image: url("IMAGENES/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png");
+    width: 100px;
+    height: 100px;
+    background-size: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.6s ease, color 0.5s ease;
+}
+
+#EMBLEMA{
+    background-image: url("IMAGENES/ImagenesP/Emblema.jpg");
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    top: 1900px;
+    left: 235px;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+}
+
+#Publicidad1{
+    width: 500px;
+    height: 500px;
+    background-image: url("IMAGENES/PUBLI1.jfif");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    top: 950px;
+    left: 200px;
+    
+}
+#Publicidad2{
+    width: 500px;
+    height: 500px;
+    background-image: url("IMAGENES/PUBLI2.jfif");
+    background-size: 530px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    top: 450px;
+    left: 970px;
+   
+}
